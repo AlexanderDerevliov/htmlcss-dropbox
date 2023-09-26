@@ -29,6 +29,10 @@ h1 {
 
 h2 {font-size: 2rem;}
 
+h3 {
+    font-size: 1.6rem;
+}
+h4 {font-size: 1.3rem;}
 
 
 /* HEADER */
@@ -49,7 +53,7 @@ nav {
     list-style-type: none;
 }
 
-li:hover {
+.hover-nav:hover {
     color: rgb(103, 103, 226);
 }
 
@@ -142,20 +146,20 @@ li:hover {
 .container {
     width: 70%;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 
 .input-left, .input-right {
     display: inline-block;
     line-height: 5rem;
-     padding-right: 2rem;
+    padding-right: 2rem;
 }
 
 /* SECTION-BUISNESS-COLUMNS */
 .row {
     display: flex;
     justify-content: space-around;
+   
 }
 
 .col {
@@ -168,20 +172,24 @@ li:hover {
     min-height: 2rem;
     line-height: 2rem;
     border: 1px solid lightgray;
+    text-align: center;
 }
 
 .col-down-text {
     padding: 1.5rem 1.2rem;
     text-align: left;
-    line-height: 3rem;
     display: flex;
     flex-direction: column;
 }
 
- .col-down-section-promo {
-   border: 1px solid red;
-   width: 100%;
+ .col-down-section-user {
+    line-height: 2.5rem;
 
+}
+
+.col-down-section-promo {
+    margin: 2rem 0;
+    min-height: 200px;
 }
 
 
@@ -200,7 +208,8 @@ li:hover {
       
 }
 .btn-big-col {
-    margin-top: 1rem;
+    margin: 2rem 0;
+    padding: .5rem;
     font-size: .8rem;
     text-align: center;
     background-color: rgb(42, 42, 215);
@@ -211,9 +220,29 @@ li:hover {
 .btn-big-col:hover {
     background-color: blue;
     color: white;
+    transform: scale(1.01);
 }
 
+.underline {
+    line-height: 1.8rem;
+    text-decoration: underline;
+    color: blue;
+}
 
+.short-line {
+    margin: 3rem 0;
+    width: 20%;
+    color: gray;
+}
+
+.unordered-list-plans {
+    font-size: .8rem;
+    line-height: 1.8rem;
+    
+}
+.fa-check {
+    color: blue;
+}
 
 .gray-text {
     color: gray;
@@ -229,8 +258,7 @@ li:hover {
 
 .horizontal-col-up {
     min-height: 2rem;
-    background-color: blue;
-    color: white;
+    border: 1px solid gray;
     text-align: center;
     line-height: 2rem;
     
@@ -238,47 +266,68 @@ li:hover {
 
 .horizontal-col-down {
     display: flex;
+    border: 1px solid lightgray;
     justify-content: space-around;
-    align-items: center;
-    padding: 1rem 0;
-    
+    padding: 1rem 0; 
+    align-items: baseline; 
+}
+
+
+.text-col-horizontal {
+    line-height: 3rem;
 }
 
 .left-col-down {
-    background-color: aqua;
     width: 65%;
 }
+
+.offers {
+    padding: 2rem 0;
+}
 .right-col-down {
-    background-color: rgb(8, 207, 35);
+    text-align: start;
     width: 25%;
 }
 
 
 .col-section-third {
-    margin: 0 auto;
-    min-height: 400px;
-    background-color: rgb(7, 155, 155);
+    margin: 5rem auto;
     display: flex;
     justify-content: space-around;
 }
 
 .col-immage {
     width: 55%;
-    border: 1px solid black;
-
 }
 
 .col-text {
     width: 35%;
-    border: 1px solid black;
+    padding: 2.5rem 0;
 
+}
+
+.btn-partner {
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+    padding: .5rem;
+    transition: all 2s;
+}
+
+.btn-partner:hover {
+    background-color: gray;
+    color: white;
+    transform: scale(1.03);
 }
 
 /* SECTION-DROPBOX-BUISNESS*/
 
-.row-big {
+.wrapper-text {
+    width: 100%;
+    margin: 1.5rem 2rem;
+}
 
-    background-color: blueviolet;
+.row-big {
     min-height: 300px;
     display: flex;
     justify-content: center;
@@ -289,7 +338,43 @@ li:hover {
 
 .columns {
     width: calc(90% / 3);
-    border: 1px solid black;
-    
-
 }
+
+.cards {
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.small-container {
+    margin: 5rem 0;
+    width: 60%;
+    line-height: 4rem;
+}
+
+.team-sponsor-wrapper {
+    width: 100%;
+}
+
+.row-sponsor {
+    display: flex;
+
+    
+}
+
+.col-sponsor {
+    border: 1px solid black;
+    width: calc(100% / 3);
+}
+
+.col-sponsor-left, .col-sponsor-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards-sponsor {
+    width: calc(100% / 2);
+    padding: 4rem;
+    height: 150px;
+}
+
