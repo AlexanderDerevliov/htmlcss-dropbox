@@ -362,19 +362,61 @@ nav {
 }
 
 .col-sponsor {
-    border: 1px solid black;
     width: calc(100% / 3);
+    
 }
 
 .col-sponsor-left, .col-sponsor-right {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    background-color: rgba(211, 211, 211, 0.566);
+
 }
+
 
 .cards-sponsor {
     width: calc(100% / 2);
-    padding: 4rem;
-    height: 150px;
+    min-height: 150px;
+    padding: 3rem;
 }
 
+.col-sponsor-center .cards-sponsor-center {
+    width: 40%;
+    min-height: 150px;
+    padding: 2rem;
+
+}
+.col-sponsor-center {
+    background-color:  lightgray;
+    padding: 0 2rem;
+}
+
+/* WRAPPER BUISNESS DROPBOX */
+
+.wrapper-buisness-dropbox {
+
+    width: 100%;
+    min-height: 300px;
+    background-color: rgb(148, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-buisness-left-text {
+    width: 25%;
+    margin: 0 auto;
+    padding-left: 2rem;
+    color: rgb(69, 10, 10);
+}
+
+.btn-cta-gray {
+    margin: 0 auto;
+    background-color: rgb(244, 238, 238);
+    padding: .8rem;
+}
+
+.btn-cta-gray:hover {
+    transform: scalex(1.1);
+    background-color: rgb(180, 180, 180);
+}
