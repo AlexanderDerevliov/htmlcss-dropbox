@@ -8,7 +8,7 @@
 
 img {
     max-width: 100%;
-  
+
 }
 
 a {
@@ -59,7 +59,7 @@ nav {
 }
 
 .logo img {
-    vertical-align: middle; 
+    vertical-align: middle;
 }
 
 .btn-nav {
@@ -96,17 +96,17 @@ nav {
     width: 70%;
     margin: 5rem auto;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
 
 .col-text-left {
-    width: 40%;  
+    width: 40%;
 }
 
 .text-hero, .expire{
     width: 60%;
     text-align: left;
-    
+
 }
 
 
@@ -176,7 +176,7 @@ nav {
 .row {
     display: flex;
     justify-content: space-around;
-   
+
 }
 
 .col {
@@ -217,12 +217,12 @@ nav {
 .p-small i {
     font-size: .8rem;
     padding: .2rem;
-    
+
 }
 .p-small {
     font-size: .8rem;
     line-height: 2.5em;
-      
+
 }
 .btn-big-col {
     margin: 2rem 0;
@@ -254,7 +254,7 @@ nav {
 
 .unordered-list-plans {
     font-size: .8rem;
-    line-height: 1.8rem; 
+    line-height: 1.8rem;
 }
 
 .lists {
@@ -284,15 +284,15 @@ nav {
     border: 1px solid gray;
     text-align: center;
     line-height: 2rem;
-    
+
 }
 
 .horizontal-col-down {
     display: flex;
     border: 1px solid lightgray;
     justify-content: space-around;
-    padding: 1rem 0; 
-    align-items: baseline; 
+    padding: 1rem 0;
+    align-items: baseline;
 }
 
 
@@ -334,7 +334,7 @@ nav {
     border: 1px solid black;
     text-align: center;
     padding: .5rem;
-    transition: all 2s;   
+    transition: all 2s;
 }
 
 .btn-partner:hover {
@@ -342,7 +342,7 @@ nav {
     color: white;
     transform: scale(1.03);
     border: none;
-    
+
 }
 
 /* SECTION-DROPBOX-BUISNESS*/
@@ -369,7 +369,7 @@ nav {
 
 .cards {
     padding: 2rem;
-    line-height: 1.5; 
+    line-height: 1.5;
 }
 
 
@@ -391,12 +391,12 @@ nav {
 .row-sponsor {
     display: flex;
 
-    
+
 }
 
 .col-sponsor {
     width: calc(100% / 3);
-    
+
 }
 
 .col-sponsor-left, .col-sponsor-right {
@@ -418,18 +418,18 @@ nav {
 .col-sponsor-center .cards-sponsor-center {
     width: 40%;
     display: flex;
-    
+
 }
 .col-sponsor-center {
     background-color:  lightgray;
     padding: 2rem;
     height: 60vh;
-    overflow-y: scroll; 
+    overflow-y: scroll;
 }
 .col-sponsor-center:hover{
     background-color: gray;
     color: aliceblue;
-    
+
 }
 
 .col-sponsor-center:active {
@@ -508,7 +508,7 @@ nav {
     color: rgb(69, 10, 10);
 }
 .wrapper-business-left-text:hover {
-      
+
     color: rgb(165, 30, 30);
 }
 
@@ -539,13 +539,13 @@ nav {
     margin: 5rem 0;
     width: 60%;
     padding: 1rem;
- 
+
 }
 
 .the-questions {
     padding: 2rem 0;
     line-height: 3rem;
-   
+
 }
 
 .question-row {
@@ -573,5 +573,62 @@ nav {
     height: 100px;
     font-size: 1rem;
     font-weight: normal;
+
+}
+
+/* FOOTER */
+
+footer {
+    min-height: 600px;
+    background-color: black;
+}
+
+.wrapper-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+
+.row-footer {
+    display: flex;
+    width: 80%;
+}
+
+
+.col-footer {
+    width: calc(100% / 5);
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+
+}
+
+.footer-li {
+    margin-top: 2.5rem;
+}
+.footer-li li {
+    padding-top: 1rem;
+}
+
+/* FOOTER LAST ROW */
+
+.footer-last-row {
+    width: 75%;
+    margin: 0 auto;
     
+    
+}
+
+.languages span {
+    color: white;
+    padding: 0 .5rem;
+}
+
+.short-line-end {
+    width: 15%;
+    color: lightgray;
+    margin: 2rem 0;
 }
