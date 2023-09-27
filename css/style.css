@@ -8,6 +8,7 @@
 
 img {
     max-width: 100%;
+  
 }
 
 a {
@@ -80,6 +81,7 @@ nav {
     background-color: rgb(178, 210, 248);
     text-align: center;
     padding-top: 60px;
+    min-height: 600px;
 }
 
 /* MAIN-TEXT */
@@ -104,8 +106,10 @@ nav {
 .text-hero, .expire{
     width: 60%;
     text-align: left;
-    margin: 2rem 0;
+    
 }
+
+.expire {margin: 2rem 0;}
 
 .col-img {
     width: 60%;
@@ -116,6 +120,7 @@ nav {
 .btn-big {
     width: 60%;
     padding: 0.4rem;
+    margin: 1.5rem 0;
     background-color: rgb(42, 42, 215);
     color: white;
     transition: all 1s;
@@ -153,6 +158,11 @@ nav {
     display: inline-block;
     line-height: 5rem;
     padding-right: 2rem;
+    padding-left: 1.5rem;
+}
+
+.secondary-text {
+    padding-left: 1.5rem;
 }
 
 /* SECTION-BUISNESS-COLUMNS */
@@ -254,6 +264,7 @@ nav {
 .row-second {
     width: 100%;
     margin: 2rem auto;
+    padding: 0 1.1rem;
 }
 
 .horizontal-col-up {
@@ -347,12 +358,16 @@ nav {
 
 .small-container {
     margin: 5rem 0;
-    width: 60%;
-    line-height: 4rem;
+    padding-left: 2rem;
+    width: 50%;
+    line-height: 3rem;
 }
+
+/* TEAM SPONSOR WRAPPER */
 
 .team-sponsor-wrapper {
     width: 100%;
+    min-height: 400px;
 }
 
 .row-sponsor {
@@ -376,24 +391,85 @@ nav {
 
 .cards-sponsor {
     width: calc(100% / 2);
-    min-height: 150px;
-    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
 }
 
 .col-sponsor-center .cards-sponsor-center {
     width: 40%;
-    min-height: 150px;
-    padding: 2rem;
-
+    display: flex;
+    
 }
 .col-sponsor-center {
     background-color:  lightgray;
-    padding: 0 2rem;
+    padding: 2rem;
+    height: 60vh;
+    overflow-y: scroll; 
+}
+.col-sponsor-center:hover{
+    background-color: gray;
+    color: aliceblue;
 }
 
-/* WRAPPER BUISNESS DROPBOX */
+.col-sponsor-center:active {
+    font-size: 1.3rem;
+}
 
-.wrapper-buisness-dropbox {
+.img-small {
+    max-height: 120px;
+}
+
+/* TEAMS BACKGROUND */
+
+.background-colored-red {
+    background-color: rgba(255, 61, 61, 0.74);
+    filter: brightness(80%);
+}
+.background-colored-red:hover {
+    filter: brightness(100%);
+}
+
+
+
+.background-colored-yellow {
+    background-color: rgba(248, 248, 79, 0.797);
+    filter: brightness(80%);
+}
+.background-colored-yellow:hover {
+    filter: brightness(100%);
+}
+
+
+.background-colored-green {
+    background-color: rgba(78, 241, 97, 0.865);
+    filter: brightness(80%);
+}
+.background-colored-green:hover {
+    filter: brightness(100%);
+}
+
+.background-colored-blu {
+    background-color: rgba(79, 79, 244, 0.733);
+    filter: brightness(80%);
+}
+.background-colored-blu:hover {
+    filter: brightness(100%);
+}
+
+.background-colored-violet{
+    background-color: rgba(255, 139, 255, 0.833);
+    filter: brightness(80%);
+}
+.background-colored-violet:hover {
+    filter: brightness(100%);
+}
+
+
+/* WRAPPER BUSINESS DROPBOX */
+
+.wrapper-business-dropbox {
 
     width: 100%;
     min-height: 300px;
@@ -403,7 +479,7 @@ nav {
     align-items: center;
 }
 
-.wrapper-buisness-left-text {
+.wrapper-business-left-text {
     width: 25%;
     margin: 0 auto;
     padding-left: 2rem;
@@ -420,3 +496,4 @@ nav {
     transform: scalex(1.1);
     background-color: rgb(180, 180, 180);
 }
+
