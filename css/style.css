@@ -537,7 +537,6 @@ nav {
 
 .questions {
     margin: 5rem 0;
-    border: 1px solid black;
     width: 60%;
     padding: 1rem;
  
@@ -552,18 +551,27 @@ nav {
 .question-row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    font-weight: bold;
 }
 
-.visible {
+.visible1 {
     display: block;
-   
-   
 }
 
-.hiden {
+.visible2 {
     display: none;
 }
 
-.visible:hover {display: none;}
+.questions-answer:active .visible1 {
+    display: block;
+}
 
-.hiden:hover {display: block;}
+.questions-answer:active .visible2 {
+    display: block;
+    height: 100px;
+    font-size: 1rem;
+    font-weight: normal;
+    
+}
