@@ -564,11 +564,11 @@ nav {
     display: none;
 }
 
-.questions-answer:active .visible1 {
+.questions-answer:active .visible1  {
     display: block;
 }
 
-.questions-answer:active .visible2 {
+.questions-answer:active .visible2  {
     display: block;
     height: 100px;
     font-size: 1rem;
