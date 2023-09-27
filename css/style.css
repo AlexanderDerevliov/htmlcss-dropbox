@@ -613,6 +613,10 @@ footer {
     padding-top: 1rem;
 }
 
+.footer-li li:hover {
+    color:  rgb(103, 103, 226);
+}
+
 /* FOOTER LAST ROW */
 
 .footer-last-row {
