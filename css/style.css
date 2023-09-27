@@ -109,7 +109,9 @@ nav {
     
 }
 
-.expire {margin: 2rem 0;}
+
+
+
 
 .col-img {
     width: 60%;
@@ -121,15 +123,20 @@ nav {
     width: 60%;
     padding: 0.4rem;
     margin: 1.5rem 0;
-    background-color: rgb(42, 42, 215);
+    background-color: rgb(88, 88, 247);
     color: white;
     transition: all 1s;
 }
 .expire {
     width: 60%;
+    margin: 2rem 0;
     padding: 0.5rem;
     background-color: rgba(204, 204, 239, 0);
     color: black;
+}
+
+.expire:hover {
+    color: rgb(76, 76, 76);
 }
 
 
@@ -222,7 +229,7 @@ nav {
     padding: .5rem;
     font-size: .8rem;
     text-align: center;
-    background-color: rgb(42, 42, 215);
+    background-color: rgb(88, 88, 247);
     color: white;
     transition: all 1s;
 }
@@ -247,9 +254,14 @@ nav {
 
 .unordered-list-plans {
     font-size: .8rem;
-    line-height: 1.8rem;
-    
+    line-height: 1.8rem; 
 }
+
+.lists {
+    line-height: 2rem;
+}
+
+
 .fa-check {
     color: blue;
 }
@@ -322,13 +334,15 @@ nav {
     border: 1px solid black;
     text-align: center;
     padding: .5rem;
-    transition: all 2s;
+    transition: all 2s;   
 }
 
 .btn-partner:hover {
     background-color: gray;
     color: white;
     transform: scale(1.03);
+    border: none;
+    
 }
 
 /* SECTION-DROPBOX-BUISNESS*/
@@ -342,6 +356,7 @@ nav {
     min-height: 300px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
 
@@ -349,12 +364,15 @@ nav {
 
 .columns {
     width: calc(90% / 3);
+
 }
 
 .cards {
-    padding: 1rem;
-    line-height: 1.5;
+    padding: 2rem;
+    line-height: 1.5; 
 }
+
+
 
 .small-container {
     margin: 5rem 0;
@@ -411,6 +429,7 @@ nav {
 .col-sponsor-center:hover{
     background-color: gray;
     color: aliceblue;
+    
 }
 
 .col-sponsor-center:active {
@@ -418,7 +437,10 @@ nav {
 }
 
 .img-small {
-    max-height: 120px;
+    max-height: 100px;
+}
+.img-smaller {
+    max-height: 80px;
 }
 
 /* TEAMS BACKGROUND */
@@ -485,6 +507,10 @@ nav {
     padding-left: 2rem;
     color: rgb(69, 10, 10);
 }
+.wrapper-business-left-text:hover {
+      
+    color: rgb(165, 30, 30);
+}
 
 .btn-cta-gray {
     margin: 0 auto;
@@ -497,3 +523,47 @@ nav {
     background-color: rgb(180, 180, 180);
 }
 
+/* QUESTIONS-ANSWER */
+
+
+.container-questions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.questions {
+    margin: 5rem 0;
+    border: 1px solid black;
+    width: 60%;
+    padding: 1rem;
+ 
+}
+
+.the-questions {
+    padding: 2rem 0;
+    line-height: 3rem;
+   
+}
+
+.question-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.visible {
+    display: block;
+   
+   
+}
+
+.hiden {
+    display: none;
+}
+
+.visible:hover {display: none;}
+
+.hiden:hover {display: block;}
